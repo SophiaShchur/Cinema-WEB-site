@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: Montserrat, serif;
     background-color: #171723;
+    color: white;
 }
 header{
     background-color: #22202e;
@@ -19,10 +20,58 @@ nav a{
     font-size: 28px;
     margin: 15px 50px;
 }
+.content{
+    width: 1300px;
+    margin: 0 auto;
+}
+.first-block{
+    height: 850px;
+}
 .popular-film {
     float: left;
-    width: 700px;
+    width: 800px;
+    height: 550px;
+    margin: 75px 15px;
+    background-image: url("img/c46063b1dc5b559b.jpg");
+}
+.popular-film-text{
+    margin: 400px 0 0 50px;
+}
+.popular-film-text h1{
+    font-size: 48px;
+    margin-bottom: 10px ;
+}
+.popular-film-text h2{
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 10px;
 }
 .film-table td img{
-    height: 200px;
+    height: 250px;
+}
+td{
+    padding: 0;
+    margin: 0;
+}
+.second-block{
+    height: 800px;
+    background-color: #22202e;
+
+}
+.second-block img{
+    width: 250px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    padding: 45px 0;
+}
+.first-list h3{
+    text-align: center;
+    margin-top: 0;
+    font-size: 24px;
+}
+.first-list li{
+    margin: 30px 90px;
+    font-size: 18px;
+    line-height:30px ;
 }
