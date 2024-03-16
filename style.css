@@ -54,12 +54,15 @@ span{
     font-weight: normal;
     margin-top: 10px;
 }
+.film-table{
+    padding: 50px 15px;
+}
 .film-table td img{
     height: 250px;
 }
 td{
     padding: 0;
-    margin: 0;
+    margin: 10px 5px;
 }
 .second-block{
     height: 750px;
@@ -98,7 +101,7 @@ td{
     line-height:30px ;
 }
 .forth-block{
-    height: 750px;
+    height: 600px;
     background-color: #22202e;
 
 }
@@ -124,4 +127,28 @@ input[type=submit] {
     color: white;
     border: none;
     font-family: Montserrat, serif;
+}
+.footer-content img{
+    float: left;
+    margin: 15px 50px;
+    width: 150px;
+    height: 70px;
+}
+.sm-icons img{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}
+.sm-icons{
+    text-align: left;
+    margin-right: auto;
+}
+.footer-content {
+    position: relative;
+}
+
+.social-media {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
