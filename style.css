@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: Montserrat, serif;
+    background-color: #171723;
+}
+header{
+    background-color: #22202e;
+    height: 100px;
+}
+.header-content img{
+    float: left;
+    margin: 15px 50px;
+    width: 250px;
+    height: 70px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    margin: 15px 50px;
+}
+.popular-film {
+    float: left;
+    width: 700px;
+}
+.film-table td img{
+    height: 200px;
+}
