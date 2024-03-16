@@ -14,15 +14,23 @@ header{
     width: 250px;
     height: 70px;
 }
+nav{
+
+    padding: 30px 50px;
+}
 nav a{
     text-decoration: none;
     color: white;
     font-size: 28px;
-    margin: 15px 50px;
+    margin:  50px;
+
 }
 .content{
     width: 1300px;
     margin: 0 auto;
+}
+span{
+    color: #ffb800;
 }
 .first-block{
     height: 850px;
@@ -54,7 +62,7 @@ td{
     margin: 0;
 }
 .second-block{
-    height: 800px;
+    height: 750px;
     background-color: #22202e;
 
 }
@@ -74,4 +82,46 @@ td{
     margin: 30px 90px;
     font-size: 18px;
     line-height:30px ;
+}
+.third-block{
+    height: 550px;
+
+}
+.second-list h3{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 24px;
+}
+.second-list li{
+    margin: 30px 90px;
+    font-size: 18px;
+    line-height:30px ;
+}
+.forth-block{
+    height: 750px;
+    background-color: #22202e;
+
+}
+.form h3{
+    text-align: center;
+    padding-top: 50px ;
+    font-size: 24px;
+}
+.form form{
+    text-align: center;
+    margin-top:100px;
+}
+input{
+    border: 1px solid #ffb800;
+    border-radius: 20px;
+    background-color: #353244;
+    color: white;
+    padding: 15px;
+    width: 180px;
+}
+input[type=submit] {
+    background-color: #8a6907;
+    color: white;
+    border: none;
+    font-family: Montserrat, serif;
 }
