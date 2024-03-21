@@ -6,24 +6,66 @@ body{
 }
 header{
     background-color: #22202e;
-    height: 100px;
+    height: 130px;
 }
 .header-content img{
     float: left;
-    margin: 15px 50px;
+    margin: 30px 50px;
     width: 250px;
     height: 70px;
 }
 nav{
-
-    padding: 30px 50px;
+    padding: 30px 50px 40px 50px;
 }
-nav a{
+nav>a{
     text-decoration: none;
     color: white;
     font-size: 28px;
     margin:  50px;
 
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #fdb700;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #403d50;
+    padding: 10px 0;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+nav ul li ul li a:hover {
+    background-color: #8a6907;
 }
 .content{
     width: 1300px;
@@ -32,10 +74,10 @@ nav a{
 span{
     color: #ffb800;
 }
-.first-block{
+*.first-block{
     height: 850px;
 }
-.popular-film {
+*.popular-film {
     float: left;
     width: 800px;
     height: 550px;
@@ -49,7 +91,7 @@ span{
     font-size: 48px;
     margin-bottom: 10px ;
 }
-.popular-film-text h2{
+h1 + h2{
     font-size: 36px;
     font-weight: normal;
     margin-top: 10px;
@@ -90,7 +132,7 @@ td{
     height: 550px;
 
 }
-.second-list h3{
+.second-list>h3{
     text-align: center;
     margin-top: 100px;
     font-size: 24px;
@@ -128,7 +170,7 @@ input[type=submit] {
     border: none;
     font-family: Montserrat, serif;
 }
-.footer-content img{
+#footer-img{
     float: left;
     margin: 15px 50px;
     width: 150px;

@@ -7,6 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Montserrat, serif;
+            background-color: #171723;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -15,6 +23,31 @@
         <nav>
             <a href="#">Зараз у кіно</a>
             <a href="#">Скоро у прокаті</a>
+            <ul>
+                <li><a href="#">Фільми за жанром</a>
+                    <ul>
+                        <li><a href="#">Екшн</a></li>
+                        <li><a href="#">Комедія</a></li>
+                        <li><a href="#">Драма</a></li>
+                        <li><a href="#">Жахи</a></li>
+                        <li><a href="#">Документальне</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Розклад сеансів</a>
+                    <ul>
+                        <li><a href="#">Сьогодні</a></li>
+                        <li><a href="#">Завтра</a></li>
+                        <li><a href="#">Наступний тиждень</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Інформація про кінотеатр</a>
+                    <ul>
+                        <li><a href="#">Розташування та контакти</a></li>
+                        <li><a href="#">Ціни та акції</a></li>
+                        <li><a href="#">Історія кінотеатру</a></li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
     </div>
 </header>
@@ -124,9 +157,9 @@
 </main>
 <footer>
     <div class="footer-content">
-        <img src="img/CINEMAN.svg">
+        <img id="footer-img" src="img/CINEMAN.svg">
         <div class="social-media">
-            <p>Ми у соціальних мережах</p>
+            <p style="color:#fdb700;">Ми у соціальних мережах</p>
             <div class="sm-icons">
                 <a href="https://www.instagram.com/"> <img src="img/8666638_instagram_icon 1.svg"></a>
                 <a href="https://uk-ua.facebook.com/"> <img src="img/8666797_facebook_social_icon 1.svg"></a>
