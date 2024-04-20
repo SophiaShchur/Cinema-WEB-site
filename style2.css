@@ -1,0 +1,614 @@
+/* Базовий стиль для всіх елементів */
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Montserrat, serif;
+    color: white;
+    background-color: #1a1823;
+    height: 100%;
+}
+.page {
+    width: 100%;
+    min-height: 100vh;
+}
+.header{
+    height: 10%;
+    width: 100%;
+    background-color: #403d50;
+    display: inline-flex;
+}
+.main-block{
+    width: 100%;
+    height: 100%;
+}
+.side-bar{
+    background-color: #1a1823;
+}
+.main-content{
+    width: 77%;
+    height: 100%;
+    float: left;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    background-color: #1a1823;
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.first-block{
+    background-color: #22202e;
+    width: 100%;
+    padding-top:20px ;
+    margin: 0 auto;
+}
+.first-block h1{
+    color: #fdb700;
+    text-align: center;
+}
+.film p{
+    text-align: center;
+}
+.popular-film {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.second-block{
+    background-color: #403d50;
+    width: 100%;
+}
+.third-block{
+    background-color: #22202e;
+    width: 100%;
+}
+.forth-block{
+    background-color: #403d50;
+    width: 100%;
+}
+.form h3{
+    text-align: center;
+    padding-top: 50px ;
+    font-size: 24px;
+    margin: 0;
+}
+.form form{
+    text-align: center;
+    margin-top:100px;
+}
+input{
+    border: 1px solid #ffb800;
+    border-radius: 20px;
+    background-color: #353244;
+    color: white;
+    padding: 15px;
+    width: 180px;
+}
+input[type=submit] {
+    background-color: #8a6907;
+    color: white;
+    border: none;
+    font-family: Montserrat, serif;
+}
+/* Медіа-запити для десктопної версії */
+@media (min-width: 1024px) {
+
+    .header{
+        min-height: 100px;
+    }
+    .header{
+        height: 10%;
+        width: 100%;
+        display: inline-flex;
+    }
+    .side-bar{
+        height: 3100px;
+        position: sticky;
+        top: 50px;
+        width: 23%;
+        float: left;
+    }
+
+    .footer{
+        height: 75px;
+    }
+    .header-logo{
+        width: 800px;
+
+    }
+    .header-logo img{
+        margin: 50px;
+        width: 300px;
+    }
+    .account-icon{
+        width: 75px;
+        position: relative;
+    }
+    .account-icon img{
+        width: 75px;
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+    .nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        margin:  50px;
+        display: block;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ffb800;
+    }
+    .nav{
+        overflow: hidden;
+        position: sticky;
+        top: 50px;
+    }
+
+    .first-block{
+        height:1100px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .film img{
+        width:100%;
+        min-width:100px ;
+        max-width:200px ;
+    }
+    .popular-film {
+        height: 575px;
+        text-align: center;
+    }
+
+    .popular-film-wrap img{
+        margin: 15px 20px;
+        width: 100%;
+        min-width:650px ;
+        max-width:1000px ;
+        overflow: hidden;
+    }
+    .popular-film-wrap {
+        position: relative;
+    }
+
+    .popular-film-wrap h2 {
+        position: absolute;
+        left: 180px;
+        bottom: 20px;
+        width: 650px;
+        font-size: 45px;
+    }
+    .films{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .film{
+        display: block;
+        margin: 25px;
+    }
+    .second-block{
+        height:900px;
+    }
+
+    .second-block img{
+        width: 250px;
+        height: 70px;
+        display: block;
+        margin: 0 auto;
+        padding: 45px 0;
+    }
+
+  .first-list h3{
+        text-align: center;
+        margin-top: 0;
+        font-size: 24px;
+    }
+    .first-list li{
+        min-width:650px ;
+        margin: 30px 90px;
+        font-size: 18px;
+        line-height:30px ;
+    }
+    .third-block{
+        height:650px;
+    }
+    .second-list h3{
+        text-align: center;
+        padding-top: 80px;
+        font-size: 24px;
+        margin: 0;
+    }
+    .second-list li{
+        min-width:650px ;
+        margin: 30px 90px;
+        font-size: 18px;
+        line-height:30px ;
+    }
+    .forth-block{
+        height:600px;
+    }
+    .footer-img{
+        width: 400px;
+    }
+    .footer-img img{
+        width: 200px;
+        margin: 10px 70px;
+    }
+    .sm-icons{
+        display: flex;
+        justify-content: right;
+    }
+    .sm-icons a img{
+        width: 50px;
+        margin: 15px;
+    }
+    .sm-icons a{
+        display: block;
+    }
+    .social-media{
+        width:100% ;
+        text-align: right;
+    }
+    .social-media p{
+        float: left;
+        margin-top: 30px;
+    }
+}
+/* Медіа-запити для планшетної версії */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .header{
+        height: 10%;
+        max-height:130px ;
+        width: 100%;
+        display: inline-flex;
+        min-height: 100px;
+    }
+    .side-bar {
+        height: 100px;
+        width: 100%;
+        float: none;
+        top: 50px;
+
+    }
+    .nav{
+       height: 100px;
+        padding: 30px;
+        text-align: center;
+    }
+    .nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 21px;
+        margin:  50px;
+        border-bottom: 1px solid #ffb800;
+    }
+
+    .main-content {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .header-logo img {
+        margin: 20px;
+        width: 250px;
+        height: 50px;
+    }
+    .account-icon img {
+        width: 50px;
+        top: 20px;
+        right: 20px;
+        position: absolute;
+    }
+    .main-content{
+        overflow: hidden;
+    }
+    .footer{
+        height: 75px;
+    }
+    .header-logo{
+        width: 1700px;
+    }
+
+    .account-icon{
+        width: 75px;
+        position: relative;
+    }
+    .first-block{
+        height:1100px;
+        min-width:800px ;
+    }
+
+    .film img{
+        width:100%;
+        min-width:100px ;
+        max-width:200px ;
+    }
+    .popular-film {
+        height: 575px;
+        text-align: center;
+    }
+
+    .popular-film-wrap img{
+        margin: 15px 20px;
+        width: 100%;
+        min-width:650px ;
+        max-width:1000px ;
+
+    }
+    .popular-film-wrap {
+        position: relative;
+    }
+
+    .popular-film-wrap h2 {
+        position: absolute;
+        left: 180px;
+        bottom: 20px;
+        width: 650px;
+        font-size: 45px;
+
+    }
+
+    .films{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: hidden;
+
+    }
+    .film{
+
+        display: block;
+        margin: 25px;
+    }
+    .second-block{
+        height:900px;
+    }
+
+    .second-block img{
+        width: 250px;
+        height: 70px;
+        display: block;
+        margin: 0 auto;
+        padding: 45px 0;
+    }
+
+    .first-list h3{
+        text-align: center;
+        margin-top: 0;
+        font-size: 24px;
+    }
+    .first-list li{
+        min-width:620px ;
+        margin: 30px 90px;
+        font-size: 18px;
+
+        line-height:30px ;
+    }
+    .third-block{
+        height:650px;
+    }
+
+    .second-list h3{
+        text-align: center;
+        padding-top: 80px;
+        font-size: 24px;
+        margin: 0;
+    }
+    .second-list li{
+        min-width:620px ;
+        margin: 30px 90px;
+        font-size: 18px;
+        line-height:30px ;
+    }
+    .forth-block{
+        height:600px;
+    }
+    .footer-img{
+        width: 400px;
+    }
+    .footer-img img{
+        width: 200px;
+        margin: 10px 70px;
+    }
+    .sm-icons{
+        display: flex;
+        justify-content: right;
+    }
+    .sm-icons a img{
+        width: 35px;
+        margin: 10px;
+    }
+    .sm-icons a{
+        display: block;
+    }
+    .social-media{
+
+        min-width:300px ;
+        text-align: right;
+    }
+    .social-media p{
+        float: left;
+        margin-top: 30px;
+    }
+
+}
+/* Медіа-запити для мобільної версії */
+@media (max-width: 767px) {
+    .header{
+        max-height:100px ;
+        width: 100%;
+        display: inline-flex;
+        height: 80px;
+    }
+    .side-bar {
+        height: 60px;
+        width: 100%;
+        float: none;
+           }
+    .nav{
+        height: 80px;
+        padding: 13px;
+        text-align: center;
+    }
+    .nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        margin:  30px 10px;
+        border-bottom: 1px solid #ffb800;
+    }
+    .main-content {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .header-logo img {
+        margin: 15px;
+        width: 170px;
+        height: 50px;
+    }
+    .account-icon img {
+        width: 45px;
+        top: 20px;
+        right: 20px;
+        position: absolute;
+    }
+    .main-content{
+        overflow: hidden;
+    }
+    .footer{
+        height: 75px;
+    }
+    .header-logo{
+        width: 1700px;
+    }
+    .account-icon{
+        width: 75px;
+        position: relative;
+    }
+    .first-block{
+        max-height:850px;
+        min-height: 650px;
+    }
+    .first-block h1{
+        font-size: 26px;
+        font-weight: normal;
+        margin: 0;
+    }
+    .film img{
+        width:100%;
+        min-width:100px ;
+        max-width:200px ;
+    }
+    .popular-film {
+        max-height:400px;
+        min-height: 300px;
+        text-align: center;
+    }
+    .popular-film-wrap img{
+        margin: 15px 0;
+        width: 100%;
+        min-width:450px ;
+        max-width:700px ;
+    }
+    .popular-film-wrap {
+        position: relative;
+    }
+    .popular-film-wrap h2 {
+        position: absolute;
+        bottom: 20px;
+        width: 500px;
+        font-size: 30px;
+    }
+
+    .films{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .film{
+        display: block;
+        margin: 10px;
+    }
+    .second-block{
+        min-height: 750px;
+    }
+
+    .second-block img{
+        width: 170px;
+        height: 70px;
+        display: block;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    .first-list h3{
+        text-align: center;
+        margin-top: 0;
+        font-size: 24px;
+    }
+    .first-list li{
+        min-width:420px ;
+        margin: 10px 20px ;
+        font-size: 14px;
+        line-height:25px ;
+    }
+    .third-block{
+        height:530px;
+    }
+    .second-list h3{
+        text-align: center;
+        padding-top: 40px;
+        font-size: 24px;
+        margin: 0;
+    }
+    .second-list li{
+        min-width:420px ;
+        margin: 10px 20px;
+        font-size: 14px;
+        line-height:25px ;
+    }
+    .forth-block{
+        height:600px;
+    }
+    .footer-img{
+        width: 200px;
+        padding-top: 18px;
+    }
+    .footer-img img{
+        width: 150px;
+        margin: 10px 30px;
+    }
+    .sm-icons{
+        display: flex;
+        justify-content: right;
+        padding-top: 15px;
+    }
+    .sm-icons a img{
+        width: 35px;
+        margin: 5px;
+    }
+    .sm-icons a{
+        display: block;
+    }
+    .social-media{
+        width:100% ;
+        text-align: right;
+    }
+    .social-media p{
+        display: none;
+    }
+}
