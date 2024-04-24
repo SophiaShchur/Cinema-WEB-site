@@ -1,5 +1,6 @@
-document.getElementById("registrationForm").addEventListener("submit", function(event) {
+function validateForm(event) {
     event.preventDefault();
+    var form = document.getElementById("registrationForm");
 
     // Отримуємо значення полів форми
     var login = document.getElementById("login").value;
@@ -29,5 +30,4 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     }
 
     alert("Форма відправлена успішно!");
-
-});
+}

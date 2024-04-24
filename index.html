@@ -104,7 +104,7 @@
                 <div class="content">
                     <div class="form">
                         <h3>Зареєструйся на нашому сайті і отримай безкоштовний квиток на будь-який кінопоказ!</h3>
-                        <form id="registrationForm" >
+                        <form id="registrationForm" onsubmit="validateForm(event)" >
                             <p>Логін:</p>
                             <input type="text" name="login" id="login" required>
 
@@ -112,13 +112,13 @@
                             <input type="text" name="name" id="name" required>
 
                             <p>Прізвище:</p>
-                            <input type="text" name="surname" id="surname" required><br><br>
+                            <input type="text" name="surname" id="surname" required>
 
                             <p>Дата народження:</p>
-                            <input type="text" name="date" id="date" required><br><br>
+                            <input type="text" name="date" id="date" required>
 
                             <p>Пароль:</p>
-                            <input type="password" name="password" id="password" required><br><br>
+                            <input type="password" name="password" id="password" required>
 
                             <p>Повторити пароль:</p>
                             <input type="password" name="confirmPassword" id="confirmPassword" required><br><br>
