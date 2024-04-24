@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>CINEMAN</title>
     <link rel="stylesheet" href="style2.css">
+    <script src="validation.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -103,10 +104,18 @@
                 <div class="content">
                     <div class="form">
                         <h3>Зареєструйся на нашому сайті і отримай безкоштовний квиток на будь-який кінопоказ!</h3>
-                        <form action='#'>
+                        <form id="registrationForm" action='#'>
                             <p>Логін:</p>
                             <input type='text' name='login'>
+                            <p>Ім'я:</p>
+                            <input type='text' name='name'>
+                            <p>Прізвище:</p>
+                            <input type='text' name='surname'>
+                            <p>Дата народження:</p>
+                            <input type='text' name='date'>
                             <p>Пароль:</p>
+                            <input type='password' name='password'>
+                            <p>Повторити пароль:</p>
                             <input type='password' name='password'><br><br>
                             <input type='submit' value='Зареєструватися'>
                         </form>

@@ -82,14 +82,14 @@ body {
 }
 .form form{
     text-align: center;
-    margin-top:100px;
+    margin-top:50px;
 }
 input{
     border: 1px solid #ffb800;
     border-radius: 20px;
     background-color: #353244;
     color: white;
-    padding: 15px;
+    padding: 10px;
     width: 180px;
 }
 input[type=submit] {
@@ -236,7 +236,7 @@ input[type=submit] {
         line-height:30px ;
     }
     .forth-block{
-        height:600px;
+        height:800px;
     }
     .footer-img{
         width: 400px;
@@ -412,7 +412,7 @@ input[type=submit] {
         line-height:30px ;
     }
     .forth-block{
-        height:600px;
+        height:800px;
     }
     .footer-img{
         width: 400px;
@@ -582,7 +582,7 @@ input[type=submit] {
         line-height:25px ;
     }
     .forth-block{
-        height:600px;
+        height:800px;
     }
     .footer-img{
         width: 200px;
